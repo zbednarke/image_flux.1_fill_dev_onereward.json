@@ -1,0 +1,82 @@
+{
+  "input": {
+    "workflow": {
+      "17": {
+        "inputs": {
+          "image": "image_flux.1_fill_dev_OneReward_input_image.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "62": {
+        "inputs": {
+          "filename_prefix": "ComfyUI",
+          "images": [
+            "110",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "105": {
+        "inputs": {
+          "images": [
+            "108",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "PreviewImage"
+        }
+      },
+      "108": {
+        "inputs": {
+          "value": null,
+          "destination": [
+            "17",
+            0
+          ],
+          "mask": [
+            "17",
+            1
+          ]
+        },
+        "class_type": "cb0eaf1c-704f-477d-8893-79665db14ed1",
+        "_meta": {
+          "title": "cb0eaf1c-704f-477d-8893-79665db14ed1"
+        }
+      },
+      "110": {
+        "inputs": {
+          "text": "",
+          "image": [
+            "17",
+            0
+          ]
+        },
+        "class_type": "b8560576-5524-4495-baa5-2cb40da12e9e",
+        "_meta": {
+          "title": "b8560576-5524-4495-baa5-2cb40da12e9e"
+        }
+      },
+      "121": {
+        "inputs": {
+          "images": [
+            "17",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "PreviewImage"
+        }
+      }
+    }
+  }
+}
